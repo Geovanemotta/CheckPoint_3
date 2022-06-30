@@ -1,6 +1,7 @@
 /* 
     01: Crie uma função construtora que tenha como atributos: nome (string), quantidade de faltas (number) e notas (array de números). 
 */
+
 function Aluno(nome, qtd_faltas, notas) {
     this.nome = nome;
     this.qtd_faltas = qtd_faltas;
@@ -10,6 +11,7 @@ function Aluno(nome, qtd_faltas, notas) {
     02: Na função construtora crie o método calcularMedia que retorna a média de suas notas. Também terá um método chamado faltas, 
     que simplesmente aumenta o número de faltas em 1. Crie alguns alunos para testar a sua função construtora.
 */
+
     this.calcularMedia = function() {
       let notaDoAluno = 0;
       let qtd_notas = 0;
@@ -111,6 +113,7 @@ let aluno4 = new Aluno('Cristiano Ronaldo', 0, [7, 7, 7, 7]);
 };
   
 //  Criando os novos alunos para serem adicionados
+
     let novoAluno5 = new Aluno("Jaiminho Machado", 3, [5, 6, 8, 9]);
     let novoAluno6 = new Aluno("Chaves do Oito", 2, [6, 2, 9, 7])
     let novoAluno7 = new Aluno("Dora Aventureira", 1, [10, 10, 10, 10])
